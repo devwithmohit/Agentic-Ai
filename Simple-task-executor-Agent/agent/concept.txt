@@ -1,0 +1,9 @@
+Flow ab simple hai:
+
+User input aata hai
+
+decision.py task decide karta hai
+
+tasks.py correct prompt + llm.py call karta hai
+
+Output wapas aata hai
