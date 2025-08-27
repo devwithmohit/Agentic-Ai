@@ -39,7 +39,7 @@ Projects are grouped by difficulty level:
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/devwithmohit/Agentic-Ai-Projects.git
+    git clone https://github.com/devwithmohit/Agentic-Ai.git
     cd Agentic-Ai-Projects
     ```
 
