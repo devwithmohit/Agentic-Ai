@@ -1,7 +1,6 @@
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
-# Yeh file tera LLM API wrapper hoga — matlab ek centralized function jo prompt ko Gemini model pe bhejega aur response wapas karega.
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 

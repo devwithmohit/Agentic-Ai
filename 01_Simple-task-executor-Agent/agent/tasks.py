@@ -1,5 +1,4 @@
 from agent.llm import llm_call
-# tasks.py basically ek dictionary of instructions hoga jo hum Gemini ko denge. Isme hum predefined task prompts likhenge aur ek helper function banayenge jo llm.py ko call karega.
 # Tasks
 TASKS = {
     "summarize": "Summarize the following text in a concise way:",
