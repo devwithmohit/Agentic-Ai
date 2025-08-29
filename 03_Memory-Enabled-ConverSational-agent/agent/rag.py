@@ -11,6 +11,9 @@ class RAGRetriever:
         self.collection = self.client.get_or_create_collection(collection_name)
 
     def add_document(self, doc_id, text, metadata=None):
+        # Ensure metadata is a non-empty dict
+        if not metadata or not isinstance(metadata, dict) or len(metadata) == 0:
+            metadata = {"source": "user"}
         embedding = self.embedder.encode(text).tolist()
         self.collection.add(
             documents=[text],

@@ -8,7 +8,7 @@ API_KEY = os.getenv("API_KEY")
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 class DeepSeekClient:
-    def __init__(self, api_key: str = API_KEY, model: str = "deepseek/deepseek-chat"):
+    def __init__(self, api_key: str = API_KEY, model: str = "deepseek/deepseek-r1:free"):
         if not api_key:
             raise ValueError("API key is required. Please set API_KEY in your .env file.")
         self.api_key = api_key
